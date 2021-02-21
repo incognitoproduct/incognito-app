@@ -3,58 +3,131 @@
   font-family: sans-serif;
 }
 
-.editor {
-  background-color: #f4f4f4;
-  margin-top: 72vh;
-  border-radius: .2em;
-  font-size: 14px;
-}
-
-.textEdit {
-  border-radius: .2em;
-  position: relative;
-  height: 120px;
-  width: 90vw;
+.ContainerA{
+  background-color: beige;
+  border-radius: .7rem;
+  text-align: center;
   color: black;
-  background-color: white;
-  text-align: left;
+  height: 90px;
+  width: 600px;
+  box-shadow: 2px 2px 5px #bcbcbc, 
+            -3px -3px 6px #dfdfdf;
 }
 
-.input-section {
-  margin-top: -96vh;
+.ContainerB{
+  background-color: #63bcff;
+  border-radius: .5rem;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 300;
+  color: black;
+  height: 60px;
+  width: 480px;
+  box-shadow: 2px 2px 5px #598095, 
+            -3px -3px 6px #cacdcd;
 }
 
-.Button {
+.select{
+  background-color: #63bcff;
+  border-radius: .9rem;
   position: absolute;
-  height: 39px;
-  width: 45px;
-  margin-top: -90vh;
-  margin-right: -45vh;
+  margin-left: 420px;
+  height: 27px;
+  width: 96px;
+  top: -27px;
+
+  box-shadow: 2px 2px 5px #598095, 
+            -3px -3px 6px #cacdcd;
 }
 
-.ui-focus-input {
+.sort{
+  background-color: transparent;
   position: absolute;
-  margin-left: -45vh;
+  border-radius: 1em;
+  outline: none;
+  left: 63px;
+  top: 3px;
 }
 
-.zip-form {
-  margin-right: -66%;
+.Add{
+  background-color: transparent;
+  margin-top: 15px;
+  border: none;
+  height: 30px;
+  width: 72px;
 }
 
-.signout {
+.AmplifySignOut {
   position: absolute;
-  margin-right: -70%;
-  margin-top: -90%;
+  left: 30px;
+  bottom: 15px;
+  outline: none;
   resize: 80%;
+  box-shadow: 2px 2px 5px #bcbcbc, 
+            -3px -3px 6px #dfdfdf;
 }
-/* change percentages to vw vh when necessary */
-.List {
+
+.search{
   position: absolute;
-  margin-top: 9vh;
-  margin-left: -30%;
-  width: 50%;
-  height: 90vh;
-  color: black;
+  margin-left: 420px;
+  top: 18px;
+  outline: none;
+}
+
+.submit{
+  background-color: #0051ff;
+  border-color: #0051ffb3;
+  color: azure;
+  border-radius: .9em;
+  position: absolute;
+  height: 45px;
+  width: 150px;
+  right: 60px;
+  bottom: 42px;
+  outline: none;
+}
+
+.bar {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 60px;
+  left: 90px;
+}
+
+.user{
+  position: relative;
+  border-radius: 2em;
+  height: 60px;
+  width: 60px;
+  left: 210px;
+  margin-right: 36px;
+  top: -42px;
+}
+
+.logo{
+  position: relative;
+  height: 54px;
+  width: 54px;
+  right: 72px;
+  bottom: 42px;
+  border-radius: 2em;
+  box-shadow: 2px 2px 5px #bcbcbc, 
+            -3px -3px 6px #dfdfdf;
+}
+
+.navButton {
+  background-color: #63bcff;
+  border-color: #9ecaff;
+  text-align: center;
+  position: relative;
+  border-radius: 1em;
+  margin-left:15px;
+  outline: none;
+  height: 39px;
+  width: 90px;
+  right: 54px;
+  top: -36px;
 }
 
 .App-logo {
